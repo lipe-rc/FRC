@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', arial, helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    background-color: black;
+    min-height: 100vh;
+}
+
+.areaMenus{
+    flex-grow: 1;
+    background-color: #393939;
+    color: #FFF;
+}
+
+.areaMenus h1{
+    color: yellow;
+    text-align: center;
+}
+
+.areaMenus p{
+    font-size: 15px;
+    text-align: center;
+}
+
+.areaInfos{
+    flex-grow: 2;
+    background-color: rgb(6, 5, 5);
+}
+
+
+.containerImg{
+    width: 100px;
+    height: 100px;
+    border: 2px solid yellow;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.imageContent{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.areaMenus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 10px;
+}
+
+
+.areaInfos{
+    display: flex;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+
+.containerContentMenu{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 25px;
+    gap: 10px;
+}
+
+
+.containerContentMenu a{
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #323232;
+    border-bottom: 1px solid yellow;
+}
+
+.containerContentMenu a:hover{
+    color: yellow;
+}
+
+
+
+.conatinerContent h1{
+    color: #fff;
+}
+
+
+.felipeRocha{
+    color: yellow;
+}
+
+.conatinerContent p{
+    width: 500px;
+    color: #fff;
+    margin: 20px 0px;
+    margin-bottom: 30px;
+
+}
+
+.conatinerContent a{
+    color: #FFF;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #292929;
+    border-radius: 10px;
+
+}
